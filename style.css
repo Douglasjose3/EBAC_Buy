@@ -73,16 +73,16 @@ input {
     border-radius: 4px;
 }
 
-.about img {
+#about img {
     padding-left: 20px;
     margin-right: 20px;
 }
 
-.about p {
+#about p {
     margin-right: 20px;
 }
 
-.about .container {
+#about .container {
     background-color: #d7d7d783;
     padding: 20px 0 20px 0;
     display: flex;
@@ -98,16 +98,16 @@ h2 {
     margin-right: 20px;
 }
 
-.produtos .container {
+#produtos .container {
     background-color: #d7d7d783;
     border-radius: 30px 30px 0 0;
 }
 
-.produtos h2 {
+#produtos h2 {
     margin-left: 20px;
     padding-top: 20px;
 }
-.produtos ul {
+#produtos ul {
     padding: 20px;
 }
 
@@ -117,18 +117,18 @@ h3 {
     color: #585858;
 }
 
-.produtos ul {
+#produtos ul {
     display: grid;
     grid-template-columns: repeat(4, 22.75%);
     column-gap: 3%;
 }
 
-.produtos li {
+#produtos li {
     list-style: none;
     display: block;
 }
 
-.produtos img {
+#produtos img {
     max-width: 100%;
     margin-bottom: 10px;
 }
@@ -146,7 +146,7 @@ h3 {
     margin-bottom: 60px;
 }
 
-.produtos button {
+#produtos button {
     margin-top: 10px;
     width: 100%;
     background-color: #0a4abf;
@@ -158,13 +158,13 @@ h3 {
     border: none;
 }
 
-.produtos #valor_add {
+#produtos #valor_add {
     font-size: 20px;
     justify-content: center;
     margin-top: 15px;
 }
 
-.produtos #adic {
+#produtos #adic {
     font-size: 15px;
 }
 
@@ -177,19 +177,19 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-    .produtos ul {
+    #produtos ul {
         display: block;
     }
 
-    .about .container {
+    #about .container {
         display: block;
     }
 
-    .about img {
+    #about img {
         max-width: 93%;
     }
     
-    .about .sobre {
+    #about .sobre {
         padding: 20px;
     }
 
@@ -218,23 +218,22 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .produtos ul {
+    #produtos ul {
         display: grid;
         grid-template-columns: repeat(2, 47%);
         column-gap: 3%;
     }
 
-    .about .container {
+    #about .container {
         display: block;
     }
 
-    .about img {
+    #about img {
         max-width: 100%;
     }
 
-    .about .sobre {
+    #about .sobre {
         padding: 20px 20px 0 20px;
     }
-
 }
 
