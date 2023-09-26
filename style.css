@@ -176,6 +176,18 @@ footer {
     font-weight: 600;
 }
 
+#button-top {
+    background-color: #082965;
+    color: #f6eb16;
+    padding: 7px 10px;
+    text-decoration: none;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.161);
+}
+
 @media screen and (max-width: 767px) {
     #produtos ul {
         display: block;
